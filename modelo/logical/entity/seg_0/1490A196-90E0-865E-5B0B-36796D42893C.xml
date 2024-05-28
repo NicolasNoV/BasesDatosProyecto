@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1490A196-90E0-865E-5B0B-36796D42893C" name="BancoPreguntas">
+<createdBy>MILTON NOVA</createdBy>
+<createdTime>2024-05-25 23:55:33 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="EA19FBD0-A8E2-3EBB-33DF-4C29D0E4F002" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Pregunta" id="4D1710A9-7877-BF3B-6B19-F3DFD44EEFFE">
+<createdBy>MILTON NOVA</createdBy>
+<createdTime>2024-05-25 23:56:04 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="EA19FBD0-A8E2-3EBB-33DF-4C29D0E4F002" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Texto" id="0BB0AF1B-07AF-DFFD-9CC9-E37CFD5E49D3">
+<createdBy>MILTON NOVA</createdBy>
+<createdTime>2024-05-25 23:56:04 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="EA19FBD0-A8E2-3EBB-33DF-4C29D0E4F002" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<ownDataTypeParameters>200 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tipo" id="6C2C072C-FDF6-5DBF-652E-83539A321156">
+<createdBy>MILTON NOVA</createdBy>
+<createdTime>2024-05-25 23:56:04 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="EA19FBD0-A8E2-3EBB-33DF-4C29D0E4F002" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RespuestasPosibles" id="309F8CB1-A3C2-5D4A-EAA8-B065E17F010F">
+<createdBy>MILTON NOVA</createdBy>
+<createdTime>2024-05-25 23:56:05 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="EA19FBD0-A8E2-3EBB-33DF-4C29D0E4F002" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2000 BYTE</dataTypeSize>
+<ownDataTypeParameters>2000 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RespuestaCorrecta" id="BD5A166E-D81A-7F70-F50D-BBA445D510E4">
+<createdBy>MILTON NOVA</createdBy>
+<createdTime>2024-05-25 23:56:05 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="EA19FBD0-A8E2-3EBB-33DF-4C29D0E4F002" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2000 BYTE</dataTypeSize>
+<ownDataTypeParameters>2000 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Publica" id="276DB1BA-04EB-8BD1-3C14-29B31E6ABD7A">
+<createdBy>MILTON NOVA</createdBy>
+<createdTime>2024-05-25 23:56:06 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="EA19FBD0-A8E2-3EBB-33DF-4C29D0E4F002" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Tema" id="A9D7AAF3-7FAF-7D68-DF4D-E1CB9C6955D4">
+<createdBy>MILTON NOVA</createdBy>
+<createdTime>2024-05-26 00:28:15 UTC</createdTime>
+<generatorID>B7F990B6-C82E-2F36-19EA-242B8F11D8B8</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="EA19FBD0-A8E2-3EBB-33DF-4C29D0E4F002" value="true"/>
+</engineerTo>
+<referedAttribute>E3091135-7F90-9792-ABFE-B51A370889EE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2C5519AE-0289-ED2F-2861-29C1CFEB1891" name="BancoPreguntas PK">
+<createdBy>MILTON NOVA</createdBy>
+<createdTime>2024-05-25 23:56:21 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="EA19FBD0-A8E2-3EBB-33DF-4C29D0E4F002" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4D1710A9-7877-BF3B-6B19-F3DFD44EEFFE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

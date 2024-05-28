@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_14" directorySegmentName="seg_0" id="4E78EF4D-52D2-B538-362F-0B99D48441DC">
+<createdBy>MILTON NOVA</createdBy>
+<createdTime>2024-05-26 01:24:56 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="EA19FBD0-A8E2-3EBB-33DF-4C29D0E4F002" value="true"/>
+</engineerTo>
+<sourcePk>8504AD46-F27F-28FB-4D81-F7C741DB4C82</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D0DDB5EB-2119-4AB9-224A-2715420119DB</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2BC018F4-80F0-0FBE-AA20-75BE5AB47E1B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="45643824-B507-2E77-FA7F-E28648DEA867" name="Respuesta">
+<createdBy>MILTON NOVA</createdBy>
+<createdTime>2024-05-26 00:22:42 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="EA19FBD0-A8E2-3EBB-33DF-4C29D0E4F002" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Respuesta" id="31E27EB9-5630-8505-F215-F7D51EE7A477">
+<createdBy>MILTON NOVA</createdBy>
+<createdTime>2024-05-26 00:23:05 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="EA19FBD0-A8E2-3EBB-33DF-4C29D0E4F002" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Respuesta" id="156B0640-2C9B-AEB6-651F-3DF6EF5526EC">
+<createdBy>MILTON NOVA</createdBy>
+<createdTime>2024-05-26 00:23:06 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="EA19FBD0-A8E2-3EBB-33DF-4C29D0E4F002" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5000 BYTE</dataTypeSize>
+<ownDataTypeParameters>5000 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Correcta" id="659659CE-21F1-E7BC-A536-F2FFD5185B12">
+<createdBy>MILTON NOVA</createdBy>
+<createdTime>2024-05-26 00:23:12 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="EA19FBD0-A8E2-3EBB-33DF-4C29D0E4F002" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="10AE462D-104A-63F6-A1AE-272F46051B10" name="Respuesta PK">
+<createdBy>MILTON NOVA</createdBy>
+<createdTime>2024-05-26 00:23:21 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="EA19FBD0-A8E2-3EBB-33DF-4C29D0E4F002" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>31E27EB9-5630-8505-F215-F7D51EE7A477</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

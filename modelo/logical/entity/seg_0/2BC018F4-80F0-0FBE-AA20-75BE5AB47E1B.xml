@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2BC018F4-80F0-0FBE-AA20-75BE5AB47E1B" name="GrupoEstudiante">
+<createdBy>MILTON NOVA</createdBy>
+<createdTime>2024-05-26 01:24:29 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="EA19FBD0-A8E2-3EBB-33DF-4C29D0E4F002" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Estudiante" id="EFB4D814-C9A2-02F3-7D81-D73187B81DB6">
+<createdBy>MILTON NOVA</createdBy>
+<createdTime>2024-05-26 01:24:56 UTC</createdTime>
+<generatorID>4E78EF4D-52D2-B538-362F-0B99D48441DC</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="EA19FBD0-A8E2-3EBB-33DF-4C29D0E4F002" value="true"/>
+</engineerTo>
+<referedAttribute>E633A02C-EFF8-E5FC-3BAA-A252355196DB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Grupo" id="F4506FE4-0BDB-2178-67EA-D8539CF7333B">
+<createdBy>MILTON NOVA</createdBy>
+<createdTime>2024-05-26 01:25:01 UTC</createdTime>
+<generatorID>365DD129-3451-CE88-1FE5-68D1B31119C2</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="EA19FBD0-A8E2-3EBB-33DF-4C29D0E4F002" value="true"/>
+</engineerTo>
+<referedAttribute>CC6C33C7-D6D2-CE31-4312-3C1A15390A48</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

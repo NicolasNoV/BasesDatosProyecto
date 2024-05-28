@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="018785DC-4BA1-4717-69A3-C49BBC08901A" name="PreguntaExamen">
+<createdBy>MILTON NOVA</createdBy>
+<createdTime>2024-05-26 00:19:41 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="EA19FBD0-A8E2-3EBB-33DF-4C29D0E4F002" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Porcentaje" id="11E2D988-B4ED-103A-9CE0-55C1A7B22F37">
+<createdBy>MILTON NOVA</createdBy>
+<createdTime>2024-05-26 00:19:51 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="EA19FBD0-A8E2-3EBB-33DF-4C29D0E4F002" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Examen" id="5153EC5E-22E0-43D7-21EA-C4BCB7CEE976">
+<createdBy>MILTON NOVA</createdBy>
+<createdTime>2024-05-26 01:23:51 UTC</createdTime>
+<generatorID>D33ADDF7-142C-9F06-9137-8A2067E03A14</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="EA19FBD0-A8E2-3EBB-33DF-4C29D0E4F002" value="true"/>
+</engineerTo>
+<referedAttribute>EFBEBA1E-3B8F-E4EA-C5E6-105E97B77D1C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Pregunta" id="2BFCAAF9-2B95-27EE-F121-2A63A333CE70">
+<createdBy>MILTON NOVA</createdBy>
+<createdTime>2024-05-26 01:23:55 UTC</createdTime>
+<generatorID>C189E6FF-BC3F-B091-8739-AF47E20CC4FB</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="EA19FBD0-A8E2-3EBB-33DF-4C29D0E4F002" value="true"/>
+</engineerTo>
+<referedAttribute>4D1710A9-7877-BF3B-6B19-F3DFD44EEFFE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>
